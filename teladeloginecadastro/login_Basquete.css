@@ -1,0 +1,151 @@
+.header {
+    background-color: forestgreen;
+    color: whitesmoke;
+    border-bottom: 3px solid;
+  }
+  body {
+    margin: 0;
+   padding: 0;
+   font-family: 'Exo 2', sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0% auto;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .navbar {
+   display: flex;
+   list-style: none;
+   width: 400px;
+   justify-content: space-between; 
+   align-items: center;
+  }
+  
+  .agora {
+    font-weight: bold;
+  }
+  
+  
+  .navbar a {
+    text-decoration: none ;
+    color: red;
+  }
+  .banner {
+    background-image: url('https://i.ibb.co/LxQ4Bs0/images.jpg');
+    background-size: auto;
+  }
+  
+  .banner .container {
+    height: 550px;
+    display:flex ;
+    color: white;
+    align-items: center;
+  }
+
+  
+  .banner .container.Cadastro{
+    justify-content: center;
+  }
+  
+  .banner p {
+    font-size: 36px;
+    width: 250px;
+    margin-left: 20%;
+  }
+
+  
+  .basquete{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: 10%;
+    align-items: center;
+  }
+  
+  .basquete h2{
+    margin-bottom: 3%;
+    color: deepskyblue;
+    font-size: 30px;
+  }
+  
+  
+  .basquete img{
+    width: 40%;
+  }
+  
+  .basquete p{
+    width: 100%;
+    font-size: 15px;
+    color: crimson;
+  }
+  
+  .footer {
+   background-color:darkorange;
+   color: darkmagenta;
+   justify-items: center;
+  }
+  
+  .footer .container {
+   display: flex;
+   height: 150px;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .card{
+    background-color: blue;
+    color: whitesmoke;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    justify-content: center;
+  
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+  
+   form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;
+  }
+  
+  form label {
+    margin-top: 8px;
+  }
+  
+  form input {
+    margin-top: 8px;
+   outline: 5px  solid chocolate;
+   border: 0;
+   padding: 8px;
+   border-radius: 10px;
+  }
+  
+  form  button {
+    margin-top: 16px;
+    background-color: red;
+    color: black;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer ;
+  }
